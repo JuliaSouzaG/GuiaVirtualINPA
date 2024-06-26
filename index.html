@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/INPA 2.svg">
+    <title>Pagina Inicial</title>
+</head>
+
+<body>
+
+    <div class="text-center p-2 mb-5"> 
+        <button class="btn btn-light float-start" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample"><img src="img/menu-hamburguer.png" alt="" class="menu-hamburguer"></button>
+            <img src="img/logoINPA.png" alt="" class="">
+    </div>
+
+    <!-- OffCanvas -->
+    <div class="offcanvas offcanvas-start dark-green" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="p-2 mb-4">
+            <button type="button" class="btn-close float-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <span class="offcanvas-title" id="offcanvasExampleLabel"><img src="img/inpa+texto.svg" class="text-center"
+                    alt=""></span>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="mb-3">
+                    <button type="button" class="btn btn-padrao col-12" data-bs-toggle="modal"
+                        data-bs-target="#modal-1">Visite o bosque</button>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-padrao col-12" data-bs-toggle="modal"
+                        data-bs-target="#modal-2">Sobre o INPA</button>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-padrao col-12" data-bs-toggle="modal"
+                        data-bs-target="#modal-3">Curiosidades</button>
+                </div>
+            </div>
+
+            <div class="dropdown mt-3">
+                <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Idiomas
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><img class="icon-idiomas" src="img/circular brasil.png"
+                                alt=""> Português</a></li>
+                    <li><a class="dropdown-item" href="#"><img class="icon-idiomas" src="img/circular UEA.png" alt="">
+                            Inglês</a></li>
+                    <li><a class="dropdown-item" href="#"><img class="icon-idiomas" src="img/icons-espanha-circular.png"
+                                alt=""> Espanhol</a></li>
+                    <li><a class="dropdown-item" href="#"><img class="icon-idiomas" src="img/circular alemanha.png"
+                                alt=""> Alemão</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Visite o Bosque -->
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="position-relative">
+                    <a type="button" class="position-absolute top-0 start-100 translate-middle" data-bs-dismiss="modal"
+                        aria-label="Close"><img src="img/X.png" alt="" class="icon-fechar-model"></a>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center text-modal">
+                        <h4 class="mb-2">Visite o Bosque</h4>
+                        <div class="fw-medium"><i class="bi bi-geo-alt-fill loc"></i>Onde estamos?</div>
+                        <div class="mb-2"><a class="text-modal"
+                                href="https://www.google.com/maps/place/INPA+-+National+Institute+of+Amazonian+Research/@-3.0974806,-59.987812,15z/data=!4m2!3m1!1s0x0:0xc1853bbcf636aeb4?sa=X&ved=1t:2428&ictx=111">Av.
+                                Bem-Te-VI, s/n Petrópolis, Manaus/AM, 69060-001</a></div>
+                        <div class="fw-medium">Horários de Visita</div>
+                        <div><span class="fw-medium">Terça-feira:</span> 09:00 – 16:30</div>
+                        <div><span class="fw-medium">Quarta-feira:</span> 09:00 – 16:30</div>
+                        <div><span class="fw-medium">Quinta-feira:</span> 09:00 – 16:30</div>
+                        <div><span class="fw-medium">Sexta-feira:</span> 09:00 - 16:30</div>
+                        <div><span class="fw-medium">Sábado:</span> 09:00 – 16:30</div>
+                        <div><span class="fw-medium">Domingo:</span> 09:00 – 16:30</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Sobre o Inpa -->
+    <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="position-relative">
+                    <a type="button" class="position-absolute top-0 start-100 translate-middle" data-bs-dismiss="modal"
+                        aria-label="Close"><img src="img/X.png" alt="" class="icon-fechar-model"></a>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center text-modal p-2">
+                        <h4 class="mb-3">O que é o INPA?</h4>
+                        <p>O Instituto Nacional de Pesquisas da Amazônia (INPA) tem como objetivo realizar estudos
+                            científicos sobre a região amazônica para promover o bem-estar humano e o desenvolvimento
+                            socioeconômico regional.
+                            Atualmente, é uma <b>referência mundial</b> em Biologia Tropical. Inicialmente, focou em
+                            pesquisas
+                            de fauna e flora, mas agora busca expandir de forma sustentável o uso dos recursos naturais
+                            da Amazônia.
+                            O INPA conta com diversas coordenações gerais e de pesquisas para cumprir esse desafio,
+                            abrangendo áreas como Dinâmica Ambiental, Sociedade, Ambiente e Saúde, Tecnologia e
+                            Inovação, e Biodiversidade.
+                            O INPA ainda possui quatro núcleos de pesquisas localizados nos Estados do <b>Acre, Roraima,
+                                Pará e Rondônia.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Curiosidades -->
+    <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="position-relative">
+                    <a type="button" class="position-absolute top-0 start-100 translate-middle" data-bs-dismiss="modal"
+                        aria-label="Close"><img src="img/X.png" alt="" class="icon-fechar-model"></a>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner  text-modal">
+                            <div class="carousel-item active">
+                                <div class="text-center">
+                                    <h5>Você Sabia?</h5>
+                                    <p><b>Que existe um peixe que morre afogado dentro da água?</b><br>
+                                        Este animal é o pirarucu, o maior peixe de escamas de água doce da Amazônia, que
+                                        pode pesar até 250 kilogramas e tem respiração aérea.
+                                    </p>
+                                </div>
+                                <img src="img/pirarucu.png" class="d-block w-50 mx-auto" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <h5>Você Sabia?</h5>
+                                    <p><b>Que na Amazônia existe a maior mariposa do mundo?</b><br>
+                                        A especie Thysania agripina, com envergadura de até 30 cm encontra-se no acervo
+                                        científico do INPA.</p>
+                                </div>
+                                <img src="img/maior-mariposa.jpg" class="d-block w-50 mx-auto" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <h5>Você Sabia?</h5>
+                                    <p><b>Que tanto a maior folha (dicotiledonea) do mundo, chamada Coccoloba, bem como
+                                            a
+                                            menor planta (Wolffia) encontram-se na Amazonia?</b><br>
+                                        Ambas foram coletadas pelo INPA</p>
+                                </div>
+                                <img src="img/folha_gigante.webp" class="d-block w-50 mx-auto" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mapa -->
+
+    <div class="position-relative d-flex justify-content-center align-items-center" style="height: 70vh;">
+        <div class="position-absolute container-mapa rounded-5">
+            <img src="img/mapa.png" alt="" class="w-mapa">
+            <a href="" class="position-absolute abraco-morte" href="#"><img src="img/pinAbrcDaMorte.png" alt=""
+                    class="pin-arvores pin-hover"></a>
+            <a href="puraque.html" class="position-absolute puraque"><img src="img/pinPuraque.png" alt="" class="pin pin-hover"></a>
+            <a href="abelha.html" class="position-absolute abelha"><img src="img/pinAbelha.png" alt="" class="pin pin-hover"></a>
+            <a href="tracaja.html" class="position-absolute cagado"><img src="img/pinTracaja.png" alt="" class="pin pin-hover"></a>
+            <a href="jaca.html" class="position-absolute jaca"><img src="img/pinJaca.png" alt="" class="pin pin-hover"></a>
+            <a href="casa-da-ciencia.html" class="position-absolute museu"><img src="img/pinMuseu.png" alt="" class="pin-museu pin-hover"></a>
+            <a href="peixe-boi.html" class="position-absolute peixe-boi"><img src="img/pinPeixeBoi.png" alt="" class="pin pin-hover"></a>
+            <a href="ariranha.html" class="position-absolute ariranha"><img src="img/pinAriranha.png" alt="" class="pin-ariarnha pin-hover"></a>
+            <a href="" class="position-absolute arvore-primaria"><img src="img/pinArvoreMae.png" alt="" class="pin pin-arvores pin-hover"></a>
+            <a href="sumauma.html" class="position-absolute sumauma"><img src="img/pinSumauma.png" alt="" class="pin-museu pin-hover"></a>
+            <a href="arvore-que-anda.html" class="position-absolute arvore-que-anda"><img src="img/pinArvoreQueAnda.png" alt="" class="pin-arvr-que-anda pin-hover"></a>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

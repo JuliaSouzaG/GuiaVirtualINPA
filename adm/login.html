@@ -11,21 +11,40 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <title>Cadastro de usuario</title>
-    <style>
-        .bg-green {
-            color: #004B2A;
-        }
-    </style>
-    <!-- <link rel="stylesheet" href="index.css"> -->
 </head>
-
-<body class="cadastro">
-
-    <div class="logo">
+<style>
+    body {
+        background-color: #004B2A;
+    }
+    .bg-white {
+        background-color: white;
+    }
+    .btn-padrao {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #004B2A;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #157347;
+    --bs-btn-hover-border-color: #146c43;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #146c43;
+    --bs-btn-active-border-color: #13653f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #198754;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-btn-font-weight: 500;
+}
+</style>
+<body>
+    
+    <nav class="nav justify-content-center mb-5 p-3">
         <img src="./img/logoINPA.png" alt="">
-    </div>
+    </nav>
+    
 
-    <div class="container d-grid gap-2 col-3 mx-auto border p-4 rounded-4 shadow-lg bg-green">
+    <div class="container d-grid gap-2 col-3 mx-auto border p-4 rounded-4 shadow-lg bg-white">
         <h3 class="text-center mt-3">Bem-Vindo(a)</h3>
         <p class="text-center mb-4">Insira suas informações abaixo</p>
         <form action="" class="form-login">
@@ -42,14 +61,17 @@
                 <div class="input-group">
                     <span class="input-group-text" id="addon-wrapping"><i class="bi bi-key-fill bg-green"></i></span>
                     <input class="form-control" type="password" name="senha" id="senha">
+                    
                 </div>
+                <div class="form-text float-end" id="basic-addon4"><a href="">Esqueci a senha</a></div>
             </div>
-            <!-- <div class="col-10">
-                <a href="">Esqueceu sua senha</a>
-            </div> -->
-            <div class="text-center mt-5 mb-4">
-                <a href="cad-obj.html"><input class="btn btn-primary col-5 rounded-5" type="button"
+            <div class="text-center mt-5">
+                <a href="home.html"><input class="btn btn-padrao col-6 rounded-5" type="button"
                         value="Entrar"><a></a>
+            </div>
+            <div class="text-center mt-3 mb-4">
+                <a href="cad-usuario.html"><input class="btn btn-success fw-medium col-6 rounded-5" type="button"
+                        value="Cadastre-se"><a></a>
             </div>
         </form>
     </div>

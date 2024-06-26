@@ -1,0 +1,151 @@
+body {
+    background-color: #004B2A;
+}
+
+.dark-green {
+    background-color: #006A3B;
+}
+
+.container-mapa {
+    background-color: #799C52;
+}
+
+.icon-idiomas {
+    width: 20px;
+}
+
+.btn-padrao {
+    --bs-btn-color: #004B2A;
+    --bs-btn-font-weight: 500;
+    --bs-btn-bg: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #d3d4d5;
+    --bs-btn-hover-border-color: #c6c7c8;
+    --bs-btn-focus-shadow-rgb: 211, 212, 213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+.loc {
+    color: red;
+}
+
+.text-modal {
+    color: #323D03;
+}
+
+.icon-fechar-model {
+    width: 40px;
+}
+
+.bg-mapa {
+    background-color: #799C52;
+}
+
+.w-mapa {
+    width: 900px;
+}
+
+.pin {
+    width: 55px;
+}
+
+.pin-ariarnha {
+    width: 40px;
+}
+
+.pin-arvores {
+    width: 40px;
+}
+
+.pin-arvr-que-anda {
+    width: 40px;
+}
+
+.pin-museu {
+    width: 45px;
+}
+
+.abraco-morte {
+    top: 45%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.puraque {
+    top: 49%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+}
+
+.abelha {
+    top: 50%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+}
+
+.cagado {
+    top: 26%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+}
+
+.jaca {
+    top: 43%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+.museu {
+    top: 60%;
+    left: 23.5%;
+    transform: translate(-50%, -50%);
+}
+
+.peixe-boi {
+    top: 76%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+}
+
+.ariranha {
+    top: 79%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.arvore-primaria {
+    top: 48%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+.arvore-que-anda {
+    top: 57%;
+    left: 17.5%;
+    transform: translate(-50%, -50%);
+}
+
+.sumauma {
+    top: 56%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.pin-hover {
+    transition: 0.5s;
+}
+
+.pin-hover:hover {
+    transform: scale(1.2);
+}
+
+.menu-hamburguer {
+    width: 25px;
+}
